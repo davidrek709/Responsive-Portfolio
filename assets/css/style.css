@@ -1,0 +1,242 @@
+button{
+
+    color: white;
+    background-color: teal;
+    height: 27px;
+    width: 77px;
+    margin-top: 9px;
+}
+.main{
+    width: 960px;
+    margin: 0 auto;
+}
+.navbar{
+    background-color: white;
+    width: 100%;
+    position: static;
+}
+
+.my-name {
+    display: inline-block;
+    height: 60px;
+    background-color: teal;
+    color: white;
+    padding: 0 10px;
+}
+
+.my-name h2 {
+    position: relative;
+    top: 10px;
+    font-size: 30px;
+}
+
+.navbar a {
+    /* /* display: block; */
+    color: rgb(167, 167, 167);
+    float: right;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 22px;
+    /* border-left: 3px solid rgb(176, 176, 176); right: 230px; */
+    /* border-left:1px solid #c6c6c6;height:20px;right:250px;top:10px; */
+}
+.p1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: auto;
+}
+body{
+    background-image: url(../images/white-waves/white-waves.png);
+    /* width: 960px; */
+}
+#About-Me{
+    color: teal;
+    font-size: 50px;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid grey;
+    border-bottom-width: thin;
+    padding-left: 10px;
+
+}
+#text-body{
+    background-color: white;
+    padding: 30px;
+    width: 913px; 
+    height: 400px;
+    margin: 20px auto;
+    line-height: 2.0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: rgb(164, 161, 161);
+}
+#me{
+    width: 120px;
+    height: 120px;
+    float:left;
+    padding: 10px;
+
+}
+.about{
+    padding:10px;
+
+}
+/* .headerDivider1{ */
+    /* border-left: 1px solid #c6c6c6; */
+    /* width: 1px; */
+    /* height: 20px; */
+    /* position: absolute; */
+    /* right: 160px; */
+    /* top: 21px; */
+
+/* .headerDivider2{ */
+    /* border-left: 1px solid #c6c6c6; */
+    /* width: 1px; */
+    /* height: 20px; */
+    /* position: absolute; */
+    /* right: 320px; */
+    /* top: 21px; */
+
+.Copyright{
+    position: absolute;
+    background-color: #666666;
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    margin-top: 65px;
+    padding-top: 59px;
+    border-top: 5px solid teal;
+}
+#Contact{
+    color: teal;
+    font-size: 30px;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid grey;
+    border-bottom-width: thin;
+    padding-left: 10px;
+}
+input{
+    width: 100%;
+    height: 25px;
+}
+#Message{
+    height: 150px;
+}
+#portfolio-body{
+    background-color: white;
+    padding: 30px;
+    width: 913px; 
+    height: 1000px;
+    margin: 20px auto;
+}
+#portfolio{
+    color: teal;
+    font-size: 50px;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid grey;
+    border-bottom-width: thin;
+    padding-left: 10px;
+}
+#a{
+    width: 300px;
+    height: 250px;
+    padding: 30px;
+    float: left;
+    position: relative;
+
+}
+#b{
+    width: 300px;
+    height: 250px;
+    padding: 30px;
+    float: left;
+}
+#c{
+    width: 300px;
+    height: 250px;
+    padding: 30px;
+    float: left;
+}
+#d{
+    width: 300px;
+    height: 250px;
+    padding: 30px;
+    float: left;
+}
+#e{
+    width: 300px;
+    height: 250px;
+    float: left;
+    padding: 30px;
+}
+#hangman{
+    background-color: teal;
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    margin-top: 173px;
+    margin-left: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+#calculator{
+    background-color: teal;
+    width: 300px;
+    height:37px;
+    position: absolute;
+    margin-top: 173px;
+    margin-left: 390px;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+
+}
+#code{
+    background-color: teal;
+    width: 300px;
+    height:37px;
+    position: absolute;
+    margin-top: 488px;
+    margin-left: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+#chess{
+    background-color: teal;
+    width: 300px;
+    height:37px;
+    position: absolute;
+    margin-top: 488px;
+    margin-left: 390px;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+#map{
+    background-color: teal;
+    width: 300px;
+    height:37px;
+    position: absolute;
+    margin-top: 797px;
+    margin-left: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+@media (max-width: 768px) {
+    /* For mobile phones: */
+    body {
+      font-size: 1.5em;
+      line-height: 1.5;
+    }
+  }
+  @media only screen and (max-width: 980px) {
+    /* For mobile phones: */
+    body {
+      font-size: 100%;
+    }
+  }
+  @media (max-width: 600px) {
+    body {
+      font-size: 85%;
+    }
+  }
